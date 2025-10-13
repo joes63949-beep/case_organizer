@@ -1,0 +1,20 @@
+
+
+from fastapi import FastAPI, Form
+from fastapi.responses import FileResponse
+from app import add_record, export_pdf  # import your existing functions
+
+app = FastAPI()
+
+@app.post("/add")
+def add_record_api(text: str = Form(...), tags: str = Form("")):
+    tag_list = [t.strip() for t in tags.split(",")]
+    add_record(text, tags=tag_list)
+    return {"status": "Saved securely"}
+
+@app.get("/download")
+def download_pdf():
+    export_pdf()
+    return FileResponse("case_notes.pdf", filename="case_notes.pdf")
+
+
