@@ -218,11 +218,14 @@ If you prefer other options, here are alternatives:
 
 ## Privacy and Security
 
-- Copilot uses your code as context but doesn't store it permanently
-- You can exclude files: Add patterns to `.gitignore` or `.copilotignore`
-- For sensitive code, you can disable Copilot temporarily:
-  - Click the Copilot icon in status bar to toggle on/off
-  - Or use `Ctrl+Shift+P` → "GitHub Copilot: Toggle"
+- GitHub Copilot uses your code as context for suggestions but has specific data retention policies
+- Telemetry data and code snippets may be retained temporarily for service improvement
+- You can opt out of telemetry in your GitHub Copilot settings
+- For sensitive code, you can:
+  - Disable Copilot temporarily (click the icon in status bar)
+  - Use `.copilotignore` to exclude specific files/patterns
+  - Review your data handling preferences at [github.com/settings/copilot](https://github.com/settings/copilot)
+- For full privacy details, see [GitHub Copilot Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-copilot-privacy-statement)
 
 ## Getting Help
 

@@ -93,7 +93,7 @@ See [AI_SETUP_GUIDE.md](AI_SETUP_GUIDE.md) for:
 ## 🎓 Learning Resources
 
 - **Copilot Docs**: https://docs.github.com/copilot
-- **VS Code with Copilot**: https://code.visualstudio.com/docs/editor/github-copilot
+- **VS Code with Copilot**: https://code.visualstudio.com/docs/copilot/overview
 - **Copilot Chat Guide**: https://docs.github.com/copilot/github-copilot-chat
 
 ---

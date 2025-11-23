@@ -28,6 +28,7 @@ env/
 .venv
 
 # IDE
+# Exclude all .vscode files except specific configuration files we want to share
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
