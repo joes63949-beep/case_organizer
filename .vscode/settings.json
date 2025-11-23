@@ -1,0 +1,42 @@
+{
+  // Python configuration
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+  
+  // GitHub Copilot configuration
+  "github.copilot.enable": {
+    "*": true,
+    "python": true,
+    "plaintext": true,
+    "markdown": true,
+    "yaml": true,
+    "json": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  
+  // Editor configuration for better AI assistance
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  
+  // File associations
+  "files.associations": {
+    "*.py": "python"
+  },
+  
+  // Auto-save for better workflow
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
+}

@@ -1,0 +1,32 @@
+# Sensitive files that should not be used by Copilot as context
+secret.key
+*.key
+*.enc
+records.enc
+*.pem
+*.p12
+*.pfx
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+credentials.json
+
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Large binary files
+*.zip
+*.tar.gz
+*.rar
+*.7z
