@@ -229,7 +229,7 @@ If you prefer other options, here are alternatives:
 
 ## Getting Help
 
-- **Copilot Documentation**: [docs.github.com/copilot](https://docs.github.com/en/copilot)
+- **Copilot Documentation**: [docs.github.com/en/copilot](https://docs.github.com/en/copilot)
 - **VS Code Docs**: [code.visualstudio.com/docs](https://code.visualstudio.com/docs)
 - **Community**: [github.com/community/copilot](https://github.com/community)
 
